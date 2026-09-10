@@ -18,7 +18,7 @@
 
 <br>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> 01 · SYSTEM CORE
+## ⚡ 01 · SYSTEM CORE
 
 <table width="100%">
 <tr>
@@ -82,7 +82,7 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> 02 · TECH ARSENAL
+## ⚡ 02 · TECH ARSENAL
 
 <div align="center">
 
@@ -125,7 +125,7 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> 03 · PROJECT MATRIX
+## ⚡ 03 · PROJECT MATRIX
 
 <table width="100%">
 <tr>
@@ -176,12 +176,12 @@ Detects crop disease from leaf imagery to support early intervention.
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> 04 · GITHUB TELEMETRY
+## ⚡ 04 · GITHUB TELEMETRY
 
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=sethuramansethu008-debug&show_icons=true&hide_border=true&theme=chartreuse-dark&bg_color=0D0221&title_color=00F0FF&icon_color=FF00E5&text_color=FFFFFF&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=sethuramansethu008-debug&hide_border=true&background=0D0221&ring=00F0FF&fire=FF00E5&currStreakLabel=00F0FF&sideLabels=FFFFFF&dates=888888" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=sethuramansethu008-debug&hide_border=true&background=0D0221&ring=00F0FF&fire=FF00E5&currStreakLabel=00F0FF&sideLabels=FFFFFF&dates=888888" />
 
 <br><br>
 
@@ -195,7 +195,7 @@ Detects crop disease from leaf imagery to support early intervention.
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> 05 · CONTRIBUTION SNAKE
+## ⚡ 05 · CONTRIBUTION SNAKE
 
 <p align="center">
 
@@ -207,7 +207,7 @@ Detects crop disease from leaf imagery to support early intervention.
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> 06 · TRANSMISSION CHANNELS
+## ⚡ 06 · TRANSMISSION CHANNELS
 
 <div align="center">
 
