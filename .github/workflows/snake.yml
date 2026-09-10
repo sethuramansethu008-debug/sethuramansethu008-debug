@@ -1,0 +1,47 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"    # daily at midnight UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake game from contribution grid
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: sethuramansethu008-debug
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push snake svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# ── SETUP ──────────────────────────────────────────────
+# 1. Save this as .github/workflows/snake.yml in your
+#    <username>/<username> profile repo (repo root, not
+#    a subfolder)
+# 2. Push to main — no extra secrets needed, GITHUB_TOKEN
+#    is provided automatically by Actions
+# 3. Check the Actions tab: first run creates an "output"
+#    branch holding the generated SVGs
+# 4. README.md already points at:
+#    .../output/github-contribution-grid-snake-dark.svg
+#    — it will start animating once that branch exists
+# 5. Re-runs happen daily via the cron schedule, so the
+#    snake always reflects your latest contributions
+# ────────────────────────────────────────────────────────
